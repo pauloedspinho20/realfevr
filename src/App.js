@@ -7,6 +7,7 @@ import defaultTheme from "./themes/default.json";
 
 //Styles
 import "./styles/reset.scss";
+import "./styles/fonts/fonts.scss";
 import "./styles/config.scss";
 
 export default class App extends Component {

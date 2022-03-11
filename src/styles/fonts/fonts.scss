@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: 'Azo Sans Md';
+    src: url('AzoSans-Medium.woff2') format('woff2'),
+        url('AzoSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Azo Sans';
+    src: url('AzoSans-Regular.woff2') format('woff2'),
+        url('AzoSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Azo Sans Bk';
+    src: url('AzoSans-Black.woff2') format('woff2'),
+        url('AzoSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Azo Sans';
+    src: url('AzoSans-Bold.woff2') format('woff2'),
+        url('AzoSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }

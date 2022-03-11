@@ -1,24 +1,7 @@
-@font-face {
-  font-family: 'Azo Sans';
-  src: local('Azo'), url(./fonts/azo-sans-black.woff) format('woff');
-}
-@font-face {
-  font-family: 'Azo Sans';
-  src: local('Azo'), url(./fonts/azo-sans-bold.woff) format('woff');
-}
-@font-face {
-  font-family: 'Azo Sans';
-  src: local('Azo'), url(./fonts/azo-sans-medium.woff) format('woff');
-}
-@font-face {
-  font-family: 'Azo Sans';
-  src: local('Azo'), url(./fonts/azo-sans-regular.woff) format('woff');
-}
-
-
 body,
 html {
-  font-family: "Azo Sans",arial,helvetica,sans-serif;
+  // font-family: "Azo Sans",arial,helvetica,sans-serif;
+  font-family: 'Azo Sans';
   height: 100%;
 }
 
