@@ -1,0 +1,13 @@
+{
+    "font": "'Azo', sans-serif",
+    "color": {
+      "main": {
+        "font": "#FFFFFF",
+        "darkBlue": "#0D153E",
+        "pink": "#e76af7"
+      }
+    },
+    "transition": "all .3s cubic-bezier(.16,1,.3,1)",
+    "boxShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)"
+  }
+  
