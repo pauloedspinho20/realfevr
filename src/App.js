@@ -17,9 +17,12 @@ export default class App extends Component {
   render() {
     return (
       <ThemeProvider theme={defaultTheme}>
-        <Router>
-          <Route path="/" exact component={Home} />
-        </Router>
+         <Router>
+       <Switch>
+         <Route path='/' exact component={Home}/>
+         {/* <Route path='/secondpage' exact component={SecondPage}/> */}
+       </Switch>
+     </Router>
       </ThemeProvider>
     );
   }
