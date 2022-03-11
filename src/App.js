@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import { ThemeProvider } from 'styled-components';
-import { Home } from './components/views/homepage/Home.js';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { ThemeProvider } from "styled-components";
+import { Home } from "./components/views/homepage/Home.js";
 
 //Themes
 import defaultTheme from "./themes/default.json";
@@ -13,11 +14,12 @@ import "./styles/config.scss";
 export default class App extends Component {
   static displayName = App.name;
 
-  render () {
+  render() {
     return (
       <ThemeProvider theme={defaultTheme}>
-          {/* Home */}
-          <Home />
+        <Router>
+          <Route path="/" exact component={Home} />
+        </Router>
       </ThemeProvider>
     );
   }
