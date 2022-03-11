@@ -12,14 +12,14 @@ import "./styles/fonts/fonts.scss";
 import "./styles/config.scss";
 
 export default class App extends Component {
-  static displayName = App.name;
+  // static displayName = App.name;
 
   render() {
     return (
       <ThemeProvider theme={defaultTheme}>
          <Router>
        <Switch>
-         <Route path='/realfevr' exact component={Home}/>
+         <Route path='/realfevr-test' exact component={Home}/>
          {/* <Route path='/secondpage' exact component={SecondPage}/> */}
        </Switch>
      </Router>
