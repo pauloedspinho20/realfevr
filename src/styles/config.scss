@@ -24,6 +24,7 @@ html {
 
 body {
   overflow-x: hidden;
+  scrollbar-gutter: stable;
 }
 
 html {
@@ -33,25 +34,7 @@ html {
 #root {
   height: -webkit-fill-available;
 }
-
-// SCROLLBAR
-/* width */
-::-webkit-scrollbar {
-  width: 4px;
-  height: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #e3e3e3;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #374754;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #045091;
+::selection {
+  background: rgba(48,224,111,.5);
+  color: #fff;
 }

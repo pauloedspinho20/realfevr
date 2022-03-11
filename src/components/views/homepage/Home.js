@@ -4,9 +4,11 @@ import NanoFlex from "../../global/NanoFlex.js";
 
 //Components
 import { Header } from './header/Header';
+import { Footer } from './footer/Footer';
 
 const StyledHome = styled(NanoFlex)`
-  background-color: ${(props) => props.theme.color.main.darkBlue};
+  height: auto;
+  background-color: ${(props) => props.theme.color.main.black};
 `;
 
 export class Home extends Component {
@@ -15,7 +17,8 @@ export class Home extends Component {
       <StyledHome flexDirection="column" justifyContent="flex-start"  alignItems="flex-start">
         <Header />
         {/* <Body />
-        <Footer /> */}
+        */}
+        <Footer /> 
       </StyledHome>
     );
   }

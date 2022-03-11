@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import NanoFlex from "..//NanoFlex.js";
 import Type from "../Typography";
-//Components
 
 //Images
 import FevrTokenLogo from "../../../images/fevrtoken-header.png";

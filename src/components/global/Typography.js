@@ -47,7 +47,7 @@ const h4 = styled.h4`
 const h5 = styled.h5`
   color: ${(props) => props.theme.color.main.font};
   font-size: 18px;
-  line-height: 20px;
+  letter-spacing: 0.2em;
   b,
   strong {
     font-weight: bold;
@@ -56,8 +56,8 @@ const h5 = styled.h5`
 
 const h6 = styled.h6`
   color: ${(props) => props.theme.color.main.font};
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 12px;
+  letter-spacing: 0.2em;
   i {
     font-style: italic;
   }
@@ -70,7 +70,7 @@ const h6 = styled.h6`
 const p = styled.p`
   color: ${(props) => props.theme.color.main.font};
   font-size: 14px;
-  line-height: 18px;
+  letter-spacing: 0.2em;
   i {
     font-style: italic;
   }
