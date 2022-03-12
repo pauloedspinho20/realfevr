@@ -17,12 +17,11 @@ export default class App extends Component {
   render() {
     return (
       <ThemeProvider theme={defaultTheme}>
-         <Router>
-       <Switch>
-         <Route path='/realfevr-test' exact component={Home}/>
-         {/* <Route path='/secondpage' exact component={SecondPage}/> */}
-       </Switch>
-     </Router>
+        <Router>
+          <Switch>
+            <Route path="/r" exact component={Home} />
+          </Switch>
+        </Router>
       </ThemeProvider>
     );
   }
