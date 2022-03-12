@@ -19,7 +19,7 @@ export default class App extends Component {
       <ThemeProvider theme={defaultTheme}>
         <Router>
           <Switch>
-            <Route path="/r" exact component={Home} />
+            <Route path="/realfevr" exact component={Home} />
           </Switch>
         </Router>
       </ThemeProvider>
