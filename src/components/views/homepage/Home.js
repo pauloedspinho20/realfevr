@@ -4,6 +4,7 @@ import NanoFlex from "../../global/NanoFlex.js";
 
 //Components
 import { Header } from './header/Header';
+import { Body } from './body/Body';
 import { Footer } from './footer/Footer';
 
 const StyledHome = styled(NanoFlex)`
@@ -16,8 +17,7 @@ export class Home extends Component {
     return (
       <StyledHome flexDirection="column" justifyContent="flex-start"  alignItems="flex-start">
         <Header />
-        {/* <Body />
-        */}
+        <Body />
         <Footer /> 
       </StyledHome>
     );

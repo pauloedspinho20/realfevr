@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import NanoFlex from "..//NanoFlex.js";
+import NanoFlex from "../NanoFlex.js";
 import Type from "../Typography.js";
 
 const StyledSimpleLink = styled(NanoFlex)`
@@ -13,7 +13,7 @@ const StyledSimpleLink = styled(NanoFlex)`
       p {
         transition: ${(props) => props.theme.transition};
         text-transform: uppercase;
-        font-weight: 700;
+        font-weight: ${(props) => (props.bold ? "700" : "normal")}; ;
         font-size: ${(props) => (props.smallText ? "10px" : "initial")};
         em {
           margin-left: 5px;
@@ -34,8 +34,8 @@ const StyledSimpleLink = styled(NanoFlex)`
 
 const SimpleLink = (props) => {
   return (
-    <StyledSimpleLink smallText={props.smallText} disabled={props.disabled}>
-      <a href={props.link} rel="noreferrer" target="_blank">
+    <StyledSimpleLink smallText={props.smallText} bold={props.bold} disabled={props.disabled}>
+      <a href={props.link} rel="noreferrer" target={props.targetBlank ? "_blank" : ""}>
         <NanoFlex className="labelButton-wrapper" alignItems="flex-end">
           <Type.p>{props.label}</Type.p>
           <Type.p>
@@ -50,6 +50,7 @@ const SimpleLink = (props) => {
 SimpleLink.defaultProps = {
   link: "",
   label: "",
+  targetBlank: "",
   secondaryLabel: "",
 };
 

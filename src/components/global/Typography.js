@@ -15,8 +15,7 @@ const h1 = styled.h1`
 
 const h2 = styled.h2`
   color: ${(props) => props.theme.color.main.font};
-  font-size: 34px;
-  line-height: 36px;
+  font-size: 36px;
   b,
   strong {
     color: ${(props) => props.theme.color.main.font};
@@ -27,7 +26,6 @@ const h2 = styled.h2`
 const h3 = styled.h3`
   color: ${(props) => props.theme.color.main.font};
   font-size: 26px;
-  line-height: 30px;
   b,
   strong {
     font-weight: bold;
@@ -36,8 +34,7 @@ const h3 = styled.h3`
 
 const h4 = styled.h4`
   color: ${(props) => props.theme.color.main.font};
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 20px;
   b,
   strong {
     font-weight: bold;

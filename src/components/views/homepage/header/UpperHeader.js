@@ -13,7 +13,7 @@ const StyledUpperHeader = styled(NanoFlex)`
   height: auto;
   background: rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 15px 150px;
+  padding: 15px 5vw 20px 5vw;
   z-index: 1;
   .aside-upperHeader {
     width: auto;
@@ -39,10 +39,10 @@ export class UpperHeader extends Component {
             <SocialMedia />
           </NanoFlex>
           <NanoFlex className="block-wrapper">
-            <SimpleLink link="https://staking.realfevr.com/" label="Staking" />
+            <SimpleLink bold link="https://staking.realfevr.com/" label="Staking" targetBlank/>
           </NanoFlex>
           <NanoFlex className="block-wrapper">
-            <SimpleLink disabled link="https://staking.realfevr.com/" label="NFT P2E Game" secondaryLabel="(Soon)" />
+            <SimpleLink disabled bold link="https://staking.realfevr.com/" label="NFT P2E Game" secondaryLabel="(Soon)" />
           </NanoFlex>
           <NanoFlex className="block-wrapper">
             <PlayFantasyButton />

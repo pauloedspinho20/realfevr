@@ -12,7 +12,7 @@ import Type from "../../../global/Typography.js";
 
 const StyledBottomFooter = styled(NanoFlex)`
   height: auto;
-  padding: 60px 150px 10px 150px;
+  padding: 60px 5vw 10px 5vw;
   z-index: 1;
   .aside-bottomFooter {
     .img-wrapper {
