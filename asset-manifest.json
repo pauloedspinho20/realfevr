@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/realfevr/static/css/main.00b1c2c9.css",
+    "main.js": "/realfevr/static/js/main.b78177fd.js",
+    "static/media/header-bck.png": "/realfevr/static/media/header-bck.133bbfd4d8a06b552054.png",
+    "static/media/user-avatar.png": "/realfevr/static/media/user-avatar.2de1addf6c59d4836715.png",
+    "static/media/collectible-legendary.png": "/realfevr/static/media/collectible-legendary.2be3076b9728a24a903a.png",
+    "static/media/AzoSans-Medium.woff": "/realfevr/static/media/AzoSans-Medium.b7a806a319aa1c349a30.woff",
+    "static/media/AzoSans-Regular.woff": "/realfevr/static/media/AzoSans-Regular.0e1c118b667087c96fe3.woff",
+    "static/media/AzoSans-Bold.woff": "/realfevr/static/media/AzoSans-Bold.d4af52c0c62142c5b2fa.woff",
+    "static/media/AzoSans-Black.woff": "/realfevr/static/media/AzoSans-Black.f2bfafc0db621d42cf8b.woff",
+    "static/media/AzoSans-Medium.woff2": "/realfevr/static/media/AzoSans-Medium.6f7471aa4a0d990cf474.woff2",
+    "static/media/AzoSans-Regular.woff2": "/realfevr/static/media/AzoSans-Regular.a69b614cd5c985e4e5aa.woff2",
+    "static/media/AzoSans-Bold.woff2": "/realfevr/static/media/AzoSans-Bold.dcb57dfa24c08cf8fc9c.woff2",
+    "static/media/AzoSans-Black.woff2": "/realfevr/static/media/AzoSans-Black.3252f2b4cf3f2f5c9158.woff2",
+    "static/media/partner-logo-fpf.png": "/realfevr/static/media/partner-logo-fpf.9c2577deb91482f22051.png",
+    "static/media/partner-logo-ibc.png": "/realfevr/static/media/partner-logo-ibc.7e61433ea21920646ea6.png",
+    "static/media/badge_tier3-first-edition-drop.png": "/realfevr/static/media/badge_tier3-first-edition-drop.ede2485cfe4b9e30b07e.png",
+    "static/media/diamond3.svg": "/realfevr/static/media/diamond3.20e4a314546dc3115bc96cd5140f5546.svg",
+    "static/media/realfevr-logo-horizontal.svg": "/realfevr/static/media/realfevr-logo-horizontal.1461844acc64d1ba030b969b45ca1a29.svg",
+    "static/media/realfevr-logo-white.svg": "/realfevr/static/media/realfevr-logo-white.a118fe381c57304e19459e26eacde129.svg",
+    "static/media/diamond4.svg": "/realfevr/static/media/diamond4.ab21e8df21908c6b1598e368fa3efe16.svg",
+    "static/media/football-ico.svg": "/realfevr/static/media/football-ico.34437d9de4fc087460d257fcae114ac4.svg",
+    "static/media/instagram-ico.svg": "/realfevr/static/media/instagram-ico.40d18a0fcec219c56454f74493be448f.svg",
+    "static/media/telegram-ico.svg": "/realfevr/static/media/telegram-ico.0fefea6f599eafd4971dfe2fcaffc83f.svg",
+    "static/media/binance-logo.svg": "/realfevr/static/media/binance-logo.4338f51497e495d70cbad7acd3e31207.svg",
+    "static/media/linkedin-ico.svg": "/realfevr/static/media/linkedin-ico.795ab2ce94c52046a6b7cc5eee21db4b.svg",
+    "index.html": "/realfevr/index.html",
+    "static/media/twitter-ico.svg": "/realfevr/static/media/twitter-ico.c694b7096e8f544867644247f03041ee.svg",
+    "static/media/expand-ico.svg": "/realfevr/static/media/expand-ico.fb908330bca0621eac4791f7ee691e1d.svg",
+    "static/media/youtube-ico.svg": "/realfevr/static/media/youtube-ico.6cd89eca49972838bb2f10c93b504e7f.svg",
+    "static/media/facebook-ico.svg": "/realfevr/static/media/facebook-ico.7f9dda4b431c00102f35ff1965d121a7.svg",
+    "main.00b1c2c9.css.map": "/realfevr/static/css/main.00b1c2c9.css.map",
+    "main.b78177fd.js.map": "/realfevr/static/js/main.b78177fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00b1c2c9.css",
+    "static/js/main.b78177fd.js"
+  ]
+}
